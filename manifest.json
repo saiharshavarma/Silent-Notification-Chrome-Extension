@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Silent Notification",
+    "version": "1.0",
+    "permissions": [
+        "notifications"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
